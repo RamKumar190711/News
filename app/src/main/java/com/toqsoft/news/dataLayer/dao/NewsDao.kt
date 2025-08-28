@@ -4,7 +4,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.toqsoft.news.dataLayer.models.NewsArticle
+import com.toqsoft.news.dataLayer.model.NewsArticle
 import kotlinx.coroutines.flow.Flow
 
 

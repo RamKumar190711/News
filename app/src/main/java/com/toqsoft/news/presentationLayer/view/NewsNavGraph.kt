@@ -1,4 +1,4 @@
-package com.toqsoft.news.presentationLayer
+package com.toqsoft.news.presentationLayer.view
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavType

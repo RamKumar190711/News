@@ -1,10 +1,9 @@
-package com.toqsoft.news.domainLayer.viewModel
+package com.toqsoft.news.presentationLayer.viewModel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.toqsoft.news.dataLayer.models.NewsArticle
 import com.toqsoft.news.domainLayer.useCase.GetNewsUseCase
-import com.toqsoft.news.domainLayer.NewsUiState
+import com.toqsoft.news.domainLayer.module.NewsUiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

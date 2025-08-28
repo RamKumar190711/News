@@ -1,4 +1,4 @@
-package com.toqsoft.news.presentationLayer
+package com.toqsoft.news.presentationLayer.app
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

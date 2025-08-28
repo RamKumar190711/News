@@ -1,4 +1,4 @@
-package com.toqsoft.news.presentationLayer
+package com.toqsoft.news.presentationLayer.view
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -15,8 +15,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.google.accompanist.swiperefresh.SwipeRefresh
 import com.google.accompanist.swiperefresh.rememberSwipeRefreshState
 import coil.compose.rememberAsyncImagePainter
-import com.toqsoft.news.dataLayer.models.NewsArticle
-import com.toqsoft.news.domainLayer.viewModel.NewsViewModel
+import com.toqsoft.news.dataLayer.model.NewsArticle
+import com.toqsoft.news.presentationLayer.viewModel.NewsViewModel
 
 @Composable
 fun NewsScreen(

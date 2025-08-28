@@ -1,4 +1,4 @@
-package com.toqsoft.news.dataLayer.models
+package com.toqsoft.news.dataLayer.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

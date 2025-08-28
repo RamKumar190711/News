@@ -1,4 +1,4 @@
-package com.toqsoft.news.presentationLayer
+package com.toqsoft.news.presentationLayer.view
 
 import android.webkit.WebChromeClient
 import android.webkit.WebSettings

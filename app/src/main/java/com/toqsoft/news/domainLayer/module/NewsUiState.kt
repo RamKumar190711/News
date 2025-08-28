@@ -1,6 +1,6 @@
-package com.toqsoft.news.domainLayer
+package com.toqsoft.news.domainLayer.module
 
-import com.toqsoft.news.dataLayer.models.NewsArticle
+import com.toqsoft.news.dataLayer.model.NewsArticle
 
 data class NewsUiState(
     val news: List<NewsArticle> = emptyList(),

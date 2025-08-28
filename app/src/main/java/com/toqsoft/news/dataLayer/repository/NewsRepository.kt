@@ -1,15 +1,13 @@
 package com.toqsoft.news.dataLayer.repository
 
-import com.toqsoft.news.dataLayer.models.NewsArticle
+import com.toqsoft.news.dataLayer.model.NewsArticle
 import com.toqsoft.news.dataLayer.api.NewsApiService
 import com.toqsoft.news.dataLayer.dao.NewsDao
-import com.toqsoft.news.dataLayer.models.NewsArticleDto
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.emitAll
 import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.map
 import javax.inject.Inject
-import com.toqsoft.news.dataLayer.models.toEntity
+import com.toqsoft.news.dataLayer.model.toEntity
 
 class NewsRepository @Inject constructor(
     private val api: NewsApiService,

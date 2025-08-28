@@ -1,7 +1,6 @@
 package com.toqsoft.news.dataLayer.api
 
-import com.toqsoft.news.dataLayer.models.NewsArticle
-import com.toqsoft.news.dataLayer.models.NewsResponse
+import com.toqsoft.news.dataLayer.model.NewsResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 
